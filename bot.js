@@ -1,5 +1,4 @@
 var Discord = require('discord.js')
-var auth = require('./auth.json');
 var fs = require('fs');
 
 // // Configure logger settings
@@ -63,4 +62,4 @@ bot.on('message', message => {
     
 });
 
-bot.login(auth.token);
+bot.login(process.env.discordtoken);
