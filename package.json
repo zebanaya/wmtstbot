@@ -2,9 +2,12 @@
     "name": "marrduk20",
     "version": "1.0.0",
     "description": "Daddy Satan's robot servant",
-    "main": "bot.js",
+    "main": "mdukbot.js",
     "author": "Marr Duk",
     "dependencies": {
         "discord.js": "^12.2.0"
+    },
+    "scripts": {
+        "start": "node mdukbot.js"
     }
 }
